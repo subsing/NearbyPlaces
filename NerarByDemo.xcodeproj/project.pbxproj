@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14AF37B61F3F259300555BBA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AF37B51F3F259300555BBA /* CoreLocation.framework */; };
 		14C492821F3EE7040028B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C492811F3EE7040028B654 /* AppDelegate.swift */; };
 		14C492841F3EE7040028B654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C492831F3EE7040028B654 /* ViewController.swift */; };
 		14C492871F3EE7040028B654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C492851F3EE7040028B654 /* Main.storyboard */; };
 		14C492891F3EE7040028B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C492881F3EE7040028B654 /* Assets.xcassets */; };
-		14C4928C1F3EE7040028B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C4928A1F3EE7040028B654 /* LaunchScreen.storyboard */; };
 		14C492971F3EE7040028B654 /* NerarByDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C492961F3EE7040028B654 /* NerarByDemoTests.swift */; };
 		14C492A21F3EE7040028B654 /* NerarByDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C492A11F3EE7040028B654 /* NerarByDemoUITests.swift */; };
+		14D5AB2C1F40E38D00E11C78 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 14D5AB2B1F40E38D00E11C78 /* Location.gpx */; };
+		14DC938E1F4164BA00DFA56E /* CaegoryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC938D1F4164BA00DFA56E /* CaegoryItems.swift */; };
+		14DC93901F41688900DFA56E /* CategoryItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14DC938F1F41688900DFA56E /* CategoryItems.plist */; };
+		14DC93981F417ACB00DFA56E /* ServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC93971F417ACB00DFA56E /* ServiceDataModel.swift */; };
+		14DEB03F1F3F5170005C5067 /* AlamofirNetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DEB03E1F3F5170005C5067 /* AlamofirNetworkConnection.swift */; };
+		14DEB0421F3F8119005C5067 /* PlacesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DEB0401F3F8119005C5067 /* PlacesCollectionViewCell.swift */; };
+		14DEB0431F3F8119005C5067 /* PlacesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14DEB0411F3F8119005C5067 /* PlacesCollectionViewCell.xib */; };
+		14DEB0451F3F834A005C5067 /* CategoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DEB0441F3F834A005C5067 /* CategoryDetailsViewController.swift */; };
+		14DEB0491F3F9CF3005C5067 /* DetailsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DEB0481F3F9CF3005C5067 /* DetailsMapViewController.swift */; };
+		14DEB04B1F3F9FF1005C5067 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DEB04A1F3F9FF1005C5067 /* MapKit.framework */; };
+		14DEB04F1F3FA066005C5067 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14DEB04E1F3FA066005C5067 /* GoogleMaps.framework */; };
+		86D0911785A2E23E6F38FE6D /* Pods_NerarByDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABC6EB5B14A7CC787F679C3 /* Pods_NerarByDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054D2A4C2BB6ABE571EE952B /* Pods-NerarByDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NerarByDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NerarByDemo/Pods-NerarByDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0ABC6EB5B14A7CC787F679C3 /* Pods_NerarByDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NerarByDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AF37B51F3F259300555BBA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		14C4927E1F3EE7040028B654 /* NerarByDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerarByDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C492811F3EE7040028B654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14C492831F3EE7040028B654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14C492861F3EE7040028B654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14C492881F3EE7040028B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14C4928B1F3EE7040028B654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C4928D1F3EE7040028B654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14C492921F3EE7040028B654 /* NerarByDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerarByDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C492961F3EE7040028B654 /* NerarByDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerarByDemoTests.swift; sourceTree = "<group>"; };
@@ -47,6 +61,19 @@
 		14C4929D1F3EE7040028B654 /* NerarByDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NerarByDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C492A11F3EE7040028B654 /* NerarByDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerarByDemoUITests.swift; sourceTree = "<group>"; };
 		14C492A31F3EE7040028B654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D5AB2B1F40E38D00E11C78 /* Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = SOURCE_ROOT; };
+		14DC938D1F4164BA00DFA56E /* CaegoryItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaegoryItems.swift; sourceTree = "<group>"; };
+		14DC938F1F41688900DFA56E /* CategoryItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CategoryItems.plist; sourceTree = "<group>"; };
+		14DC93971F417ACB00DFA56E /* ServiceDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDataModel.swift; sourceTree = "<group>"; };
+		14DEB03E1F3F5170005C5067 /* AlamofirNetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofirNetworkConnection.swift; sourceTree = "<group>"; };
+		14DEB0401F3F8119005C5067 /* PlacesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesCollectionViewCell.swift; sourceTree = "<group>"; };
+		14DEB0411F3F8119005C5067 /* PlacesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlacesCollectionViewCell.xib; sourceTree = "<group>"; };
+		14DEB0441F3F834A005C5067 /* CategoryDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailsViewController.swift; sourceTree = "<group>"; };
+		14DEB0481F3F9CF3005C5067 /* DetailsMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsMapViewController.swift; sourceTree = "<group>"; };
+		14DEB04A1F3F9FF1005C5067 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		14DEB04C1F3FA007005C5067 /* GSS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GSS.framework; path = System/Library/Frameworks/GSS.framework; sourceTree = SDKROOT; };
+		14DEB04E1F3FA066005C5067 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C10A3498F681939B803CCA5D /* Pods-NerarByDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NerarByDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NerarByDemo/Pods-NerarByDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DEB04F1F3FA066005C5067 /* GoogleMaps.framework in Frameworks */,
+				14DEB04B1F3F9FF1005C5067 /* MapKit.framework in Frameworks */,
+				14AF37B61F3F259300555BBA /* CoreLocation.framework in Frameworks */,
+				86D0911785A2E23E6F38FE6D /* Pods_NerarByDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				14C492951F3EE7040028B654 /* NerarByDemoTests */,
 				14C492A01F3EE7040028B654 /* NerarByDemoUITests */,
 				14C4927F1F3EE7040028B654 /* Products */,
+				C0DC155FB6EF1F009BA362B3 /* Pods */,
+				5F81F8CE59FB57D48D1DCCDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +130,12 @@
 		14C492801F3EE7040028B654 /* NerarByDemo */ = {
 			isa = PBXGroup;
 			children = (
-				14C492811F3EE7040028B654 /* AppDelegate.swift */,
-				14C492831F3EE7040028B654 /* ViewController.swift */,
-				14C492851F3EE7040028B654 /* Main.storyboard */,
-				14C492881F3EE7040028B654 /* Assets.xcassets */,
-				14C4928A1F3EE7040028B654 /* LaunchScreen.storyboard */,
-				14C4928D1F3EE7040028B654 /* Info.plist */,
+				14DC93961F416DAA00DFA56E /* View */,
+				14DC93941F416D5700DFA56E /* DataModels */,
+				14DC93931F416D2900DFA56E /* NetworkManagers */,
+				14DC93921F416D1500DFA56E /* CustomCells */,
+				14DC93911F416CF500DFA56E /* ViewControllers */,
+				14DC93951F416D7800DFA56E /* SuppportingFiles */,
 			);
 			path = NerarByDemo;
 			sourceTree = "<group>";
@@ -125,6 +158,83 @@
 			path = NerarByDemoUITests;
 			sourceTree = "<group>";
 		};
+		14DC93911F416CF500DFA56E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				14C492831F3EE7040028B654 /* ViewController.swift */,
+				14DEB0441F3F834A005C5067 /* CategoryDetailsViewController.swift */,
+				14DEB0481F3F9CF3005C5067 /* DetailsMapViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		14DC93921F416D1500DFA56E /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				14DEB0401F3F8119005C5067 /* PlacesCollectionViewCell.swift */,
+				14DEB0411F3F8119005C5067 /* PlacesCollectionViewCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		14DC93931F416D2900DFA56E /* NetworkManagers */ = {
+			isa = PBXGroup;
+			children = (
+				14DEB03E1F3F5170005C5067 /* AlamofirNetworkConnection.swift */,
+			);
+			name = NetworkManagers;
+			sourceTree = "<group>";
+		};
+		14DC93941F416D5700DFA56E /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				14DC938D1F4164BA00DFA56E /* CaegoryItems.swift */,
+				14DC938F1F41688900DFA56E /* CategoryItems.plist */,
+				14DC93971F417ACB00DFA56E /* ServiceDataModel.swift */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		14DC93951F416D7800DFA56E /* SuppportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				14C492811F3EE7040028B654 /* AppDelegate.swift */,
+				14C4928D1F3EE7040028B654 /* Info.plist */,
+				14D5AB2B1F40E38D00E11C78 /* Location.gpx */,
+				14C492881F3EE7040028B654 /* Assets.xcassets */,
+			);
+			name = SuppportingFiles;
+			sourceTree = "<group>";
+		};
+		14DC93961F416DAA00DFA56E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14C492851F3EE7040028B654 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5F81F8CE59FB57D48D1DCCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DEB04E1F3FA066005C5067 /* GoogleMaps.framework */,
+				14DEB04C1F3FA007005C5067 /* GSS.framework */,
+				14DEB04A1F3F9FF1005C5067 /* MapKit.framework */,
+				14AF37B51F3F259300555BBA /* CoreLocation.framework */,
+				0ABC6EB5B14A7CC787F679C3 /* Pods_NerarByDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0DC155FB6EF1F009BA362B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10A3498F681939B803CCA5D /* Pods-NerarByDemo.debug.xcconfig */,
+				054D2A4C2BB6ABE571EE952B /* Pods-NerarByDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14C492A61F3EE7040028B654 /* Build configuration list for PBXNativeTarget "NerarByDemo" */;
 			buildPhases = (
+				6A0CBB68E4FF6FD60D3059F4 /* [CP] Check Pods Manifest.lock */,
 				14C4927A1F3EE7040028B654 /* Sources */,
 				14C4927B1F3EE7040028B654 /* Frameworks */,
 				14C4927C1F3EE7040028B654 /* Resources */,
+				D92EF582589C13CC0B7F03E2 /* [CP] Embed Pods Frameworks */,
+				A3C873F009F4DFE4A4D9CEF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +306,7 @@
 				TargetAttributes = {
 					14C4927D1F3EE7040028B654 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					14C492911F3EE7040028B654 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -232,7 +345,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14C4928C1F3EE7040028B654 /* LaunchScreen.storyboard in Resources */,
+				14DEB0431F3F8119005C5067 /* PlacesCollectionViewCell.xib in Resources */,
+				14D5AB2C1F40E38D00E11C78 /* Location.gpx in Resources */,
+				14DC93901F41688900DFA56E /* CategoryItems.plist in Resources */,
 				14C492891F3EE7040028B654 /* Assets.xcassets in Resources */,
 				14C492871F3EE7040028B654 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +369,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A0CBB68E4FF6FD60D3059F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NerarByDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C873F009F4DFE4A4D9CEF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NerarByDemo/Pods-NerarByDemo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NerarByDemo/Pods-NerarByDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D92EF582589C13CC0B7F03E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NerarByDemo/Pods-NerarByDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NerarByDemo/Pods-NerarByDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14C4927A1F3EE7040028B654 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DEB0491F3F9CF3005C5067 /* DetailsMapViewController.swift in Sources */,
+				14DC938E1F4164BA00DFA56E /* CaegoryItems.swift in Sources */,
+				14DEB0421F3F8119005C5067 /* PlacesCollectionViewCell.swift in Sources */,
+				14DEB03F1F3F5170005C5067 /* AlamofirNetworkConnection.swift in Sources */,
 				14C492841F3EE7040028B654 /* ViewController.swift in Sources */,
+				14DC93981F417ACB00DFA56E /* ServiceDataModel.swift in Sources */,
+				14DEB0451F3F834A005C5067 /* CategoryDetailsViewController.swift in Sources */,
 				14C492821F3EE7040028B654 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,14 +490,6 @@
 				14C492861F3EE7040028B654 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		14C4928A1F3EE7040028B654 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14C4928B1F3EE7040028B654 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,8 +588,14 @@
 		};
 		14C492A71F3EE7040028B654 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10A3498F681939B803CCA5D /* Pods-NerarByDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
 				INFOPLIST_FILE = NerarByDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.subhankar.NerarByDemo;
@@ -420,8 +606,14 @@
 		};
 		14C492A81F3EE7040028B654 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 054D2A4C2BB6ABE571EE952B /* Pods-NerarByDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
 				INFOPLIST_FILE = NerarByDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.subhankar.NerarByDemo;
@@ -503,6 +695,7 @@
 				14C492A81F3EE7040028B654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C492A91F3EE7040028B654 /* Build configuration list for PBXNativeTarget "NerarByDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +704,7 @@
 				14C492AB1F3EE7040028B654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C492AC1F3EE7040028B654 /* Build configuration list for PBXNativeTarget "NerarByDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +713,7 @@
 				14C492AE1F3EE7040028B654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

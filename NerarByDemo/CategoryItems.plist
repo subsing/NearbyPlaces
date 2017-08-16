@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   CategoryItems.plist
-   NerarByDemo
-
-   Created by Subhankar Singha on 8/14/17.
-   Copyright (c) 2017 Subhankar Singha. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>items</key>
+	<array>
+		<string>Bakery</string>
+		<string>Doctor</string>
+		<string>School</string>
+		<string>Taxi_stand</string>
+		<string>Hair_care</string>
+		<string>Restaurant</string>
+		<string>Pharmacy</string>
+		<string>Atm</string>
+		<string>Doctor</string>
+		<string>Gym</string>
+		<string>Store</string>
+		<string>Spa</string>
+	</array>
+</dict>
 </plist>
