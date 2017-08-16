@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 import Alamofire
-import RealmSwift
 import ObjectMapper
 import AlamofireObjectMapper
 import SwiftyJSON
@@ -56,7 +55,7 @@ class AlamofireNetworkConnection: NSObject {
         
     }
     
-    
+    //Tried to implement the Google Photos service but not returning data till date
     func getPlacePhoto(url : String, methodType: HTTPMethod, encodingType: ParameterEncoding, params : Dictionary<String, Any>, postHeader : Dictionary<String, String>, success:@escaping (_ responseArray:Array<Any>) -> Void, fail:@escaping (_ error:String)->Void) {
         // let credential = getURLCredential(username: UserCredentials.userName, password: UserCredentials.password)
         
@@ -67,42 +66,17 @@ class AlamofireNetworkConnection: NSObject {
                 case .success(let value):
                     print("responseObject = \(value)")
                     let items = response.result.value
-                    let refineJSON = JSON(items!)
-                    let finalValue = refineJSON["results"].arrayValue
-                    for items1 in finalValue {
-                        ServiceData.palceName.append(items1["name"].stringValue)
-                        ServiceData.icon.append(items1["icon"].stringValue)
-                        ServiceData.vicinity.append(items1["vicinity"].stringValue)
-                        ServiceData.openNow.append(items1["open_now"].intValue)
-                        ServiceData.photoReference.append(items1["reference"].stringValue)
-                        ServiceData.placesicon.append(items1["icon"].stringValue)
-                        Geometry.lat.append(items1["geometry"]["viewport"]["northeast"]["lat"].stringValue)
-                        Geometry.long.append(items1["geometry"]["viewport"]["northeast"]["lng"].stringValue)
-                        Type.typesArray = (items1["types"].arrayObject as! [String])
-                        ServiceData.types.append(Type.typesArray)
-                    }
-                    print(ServiceData.placesicon)
-                    print(ServiceData.types)
-                    print(ServiceData.photoReference)
-                    print(Geometry.lat)
-                    print(Type.typesArray)
-                    
                     if (items != nil) {
-                        //LoginWebServiceData.loginStatusCode = (response.response?.statusCode)!
                         success(ServiceData.photoReference)
                     }
                     break
                 case .failure( _):
                     print("error in response")
                     break
-                    //completionHandler(nil, error)
-                }
+            }
         }
         
     }
-
-    
-    
 }
 
 
